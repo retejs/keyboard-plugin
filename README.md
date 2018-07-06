@@ -1,3 +1,3 @@
-Rete alight render plugin
+Rete keyboard plugin
 ====
 #### Rete.js plugin
