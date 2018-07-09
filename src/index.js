@@ -1,4 +1,4 @@
-export function install(editor) {
+function install(editor) {
     editor.view.container.focus();
     
     editor.on('keydown', e => {
@@ -18,4 +18,8 @@ export function install(editor) {
         default: break;
         }
     });
+}
+
+export default {
+    install
 }
