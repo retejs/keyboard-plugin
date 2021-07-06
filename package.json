@@ -1,20 +1,24 @@
 {
   "name": "rete-keyboard-plugin",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "",
-  "main": "build/keyboard-plugin.min.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "rete --build rete.config.js",
     "build:dev": "rete --build rete.config.js --watch",
     "prepublishOnly": "npm run build"
   },
   "author": "Vitaliy Stoliarov",
+  "contributors": [{ "name": "Hugo Sales", "email": "hugo@hsal.es" }],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/retejs/keyboard-plugin.git"
   },
-  "dependencies": {},
+  "dependencies": {
+      "rete": "^1.4.*",
+      "lodash": "^4.17.*"
+  },
   "devDependencies": {
     "rete-cli": "^0.1.0"
   }
